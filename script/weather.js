@@ -30,11 +30,11 @@ async function cheakWeather(city) {
     const current = data.list[0].weather[0].main;
     waetherCurrent.innerText = current;
     if (current === "Clouds") {
-      background.style.backgroundImage = `url(cluds.jpg)`;
+      background.style.backgroundImage = `url(assets/cluds.jpg)`;
     } else if (current === "Rain") {
-      background.style.backgroundImage = `url(rany.jpg)`;
+      background.style.backgroundImage = `url(assets/rany.jpg)`;
     } else if (current === "Clear") {
-      background.style.backgroundImage = `url(clear.webp)`;
+      background.style.backgroundImage = `url(assets/clear.webp)`;
     }
 
     houresWeater(data);
