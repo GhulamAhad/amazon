@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "weather.html",
-      "use": "@vercel/static"
+      "use": "/weather.css"
     }
   ],
   "routes": [
