@@ -1,15 +1,3 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "weather.html",
-      "use": "/weather.css"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.)",
-      "dest": "/weather.html"
-    }
-  ]
+  "rewrites": [{ "source": "/(.*)", "destination": "/weather.html" }]
 }
