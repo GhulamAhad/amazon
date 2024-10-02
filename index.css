@@ -165,11 +165,17 @@ body {
   padding: 10px 0;
 }
 @media (min-width: 1440px){
-  .position{
+  /* .position{
     position: absolute;
     bottom: -16%;
     left: 8%;
 
+} */
+.position2{
+  gap: 2rem;
+}
+.maintainence{
+  gap: 30px;
 }
 }
 
