@@ -239,4 +239,7 @@ body {
       width: 210px;
       height: 30px;
   }
+  .side_bar{
+    height: 80vh;
+  }
 }
