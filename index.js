@@ -108,5 +108,13 @@ serchBTn.addEventListener("click", () => {
   cheakWeather(city);
 });
 
+// Add event listener for the Enter key
+greatInput.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    const city = greatInput.value;
+    cheakWeather(city);
+  }
+});
+
 // Initial check for a default city
-cheakWeather("lahore");
+cheakWeather("lahore")
